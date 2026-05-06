@@ -582,7 +582,6 @@ Click Save
 
 Your Splunk instance will now automatically detect brute force attempts.
 
-Your Splunk instance will now automatically detect brute force attempts.
 
 
 
