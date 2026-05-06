@@ -404,6 +404,8 @@ Click Run Script in PowerShell ISE
 
 Wait ~2 minutes for Splunk to ingest the events
 
+---
+
 
 ## 🧠 Step 5 — Essential SPL Searches
 
