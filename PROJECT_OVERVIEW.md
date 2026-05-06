@@ -92,7 +92,6 @@ The Universal Forwarder is a **lightweight Splunk agent** installed on the Windo
 
 <img width="1536" height="1024" alt="Copilot_20260506_155823" src="https://github.com/user-attachments/assets/2386ce6f-c51a-434c-8a9e-8138f7513906" />
 
-
 **Step-by-step flow:**
 
 1. **Event Generation** — Windows OS writes Security, System, and Application events to the Windows Event Log (`.evtx` files).
