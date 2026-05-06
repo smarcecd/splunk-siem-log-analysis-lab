@@ -39,25 +39,8 @@ This project serves as a **portfolio-grade demonstration** of SIEM engineering a
 ## Architecture Summary
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     Microsoft Azure                      │
-│                                                         │
-│  ┌─────────────────────┐     ┌───────────────────────┐  │
-│  │    Windows VM        │     │      Splunk VM         │  │
-│  │  (Log Source)        │     │  (SIEM / Indexer)      │  │
-│  │                     │     │                       │  │
-│  │  - Windows Event Log │────▶│  - Splunk Enterprise  │  │
-│  │  - Security Logs     │9997 │  - Indexer            │  │
-│  │  - System Logs       │     │  - Search Head        │  │
-│  │  - App Logs          │     │  - Web UI (:8000)     │  │
-│  │                     │     │                       │  │
-│  │  [UF Agent Running] │     │  [Receiving Enabled]  │  │
-│  └─────────────────────┘     └───────────────────────┘  │
-│                                                         │
-│              Azure Virtual Network (VNet)               │
-│         Network Security Groups (NSG) Applied           │
-└─────────────────────────────────────────────────────────┘
-```
+<img width="1536" height="1024" alt="ChatGPT Image May 5, 2026, 09_07_59 PM" src="https://github.com/user-attachments/assets/909c9ae2-64b8-4585-b9e7-6be5b90da011" />
+
 
 Both virtual machines reside within the same **Azure Virtual Network (VNet)**, secured by **Network Security Groups (NSGs)** that restrict traffic to only the ports required for log forwarding and administration.
 
@@ -255,26 +238,6 @@ git clone https://github.com/<your-username>/azure-splunk-lab.git
 cd azure-splunk-lab
 ```
 
-
-## Project Structure
-
-```
-azure-splunk-lab/
-├── PROJECT_OVERVIEW.md        # This file
-├── docs/
-│   ├── azure-vm-setup.md
-│   ├── splunk-install.md
-│   ├── universal-forwarder-setup.md
-│   └── splunk-queries.md
-├── configs/
-│   ├── inputs.conf
-│   └── outputs.conf
-├── dashboards/
-│   └── windows-security-overview.xml
-└── screenshots/
-    ├── splunk-dashboard.png
-    └── forwarder-connected.png
-```
 
 ---
 
