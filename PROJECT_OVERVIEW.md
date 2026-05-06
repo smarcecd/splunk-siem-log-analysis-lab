@@ -255,14 +255,6 @@ git clone https://github.com/<your-username>/azure-splunk-lab.git
 cd azure-splunk-lab
 ```
 
-See the following guides for step-by-step setup:
-
-- [`docs/azure-vm-setup.md`](docs/azure-vm-setup.md) — Provisioning the Azure VMs
-- [`docs/splunk-install.md`](docs/splunk-install.md) — Installing Splunk Enterprise
-- [`docs/universal-forwarder-setup.md`](docs/universal-forwarder-setup.md) — Configuring the UF on Windows
-- [`docs/splunk-queries.md`](docs/splunk-queries.md) — Example SPL searches and dashboards
-
----
 
 ## Project Structure
 
@@ -283,12 +275,6 @@ azure-splunk-lab/
     ├── splunk-dashboard.png
     └── forwarder-connected.png
 ```
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
