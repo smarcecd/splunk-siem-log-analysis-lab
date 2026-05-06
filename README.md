@@ -455,9 +455,13 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4624
 ```
 
 Logon Types to know:
+
  2 — Interactive (local keyboard)
+ 
  3 — Network (file shares, SMB)
+ 
  5 — Service account
+ 
  10 — Remote interactive (RDP)
 
 ---
