@@ -570,15 +570,13 @@ What this detects:
 
 Click Save As → Alert
 
-Name: Potential Brute Force — High Failure Count
-
-Alert Type: Scheduled
-
-Run every: 15 minutes
-
-Trigger Condition: Number of Results > 0
-
-Trigger Actions: Add to Triggered Alerts
+| Setting | Value |
+|--------|-------|
+| Name | Potential Brute Force — High Failure Count |
+| Alert Type | Scheduled |
+| Run every | 15 minutes |
+| Trigger Condition | Number of Results > 0 |
+| Trigger Actions | Add to Triggered Alerts |
 
 Click Save
 
