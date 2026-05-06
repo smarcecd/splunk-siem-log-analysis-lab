@@ -39,7 +39,8 @@ This project serves as a **portfolio-grade demonstration** of SIEM engineering a
 ## Architecture Summary
 
 ```
-<img width="1536" height="1024" alt="ChatGPT Image May 5, 2026, 09_07_59 PM" src="https://github.com/user-attachments/assets/909c9ae2-64b8-4585-b9e7-6be5b90da011" />
+<img width="1536" height="1024" alt="Splunk lab architect" src="https://github.com/user-attachments/assets/62043cd5-a9c8-4bfe-99ad-cf7b1e719068" />
+
 
 
 Both virtual machines reside within the same **Azure Virtual Network (VNet)**, secured by **Network Security Groups (NSGs)** that restrict traffic to only the ports required for log forwarding and administration.
