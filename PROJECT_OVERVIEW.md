@@ -90,19 +90,8 @@ The Universal Forwarder is a **lightweight Splunk agent** installed on the Windo
 
 ## Data Flow
 
-```
-Windows Event Logs          Universal Forwarder         Splunk Indexer
-─────────────────           ───────────────────         ──────────────
-  Security.evtx    ──────▶   Monitor inputs.conf  ──────▶  TCP :9997
-  System.evtx               Forward via outputs.conf        │
-  Application.evtx                                          ▼
-                                                    Indexed in Splunk
-                                                           │
-                                                           ▼
-                                                  Splunk Search Head
-                                                  SPL Queries / Alerts
-                                                  Dashboards / Reports
-```
+<img width="1536" height="1024" alt="Copilot_20260506_155823" src="https://github.com/user-attachments/assets/2386ce6f-c51a-434c-8a9e-8138f7513906" />
+
 
 **Step-by-step flow:**
 
