@@ -439,14 +439,10 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4625
 | sort -count
 ```
 
-
 What this tells you:
-
-EventCode=4625 — failed logon attempts
-
-stats count by ... — shows which accounts and machines generated failures
-
-High counts (5+ in a short time) may indicate brute force attempts
+ - EventCode=4625 — failed logon attempts
+ - stats count by ... — shows which accounts and machines generated failures
+ - High counts (5+ in a short time) may indicate brute force attempts
 
 ---
 
@@ -458,16 +454,11 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4624
 | sort -count
 ```
 
-
 Logon Types to know:
-
-2 — Interactive (local keyboard)
-
-3 — Network (file shares, SMB)
-
-5 — Service account
-
-10 — Remote interactive (RDP)
+ 2 — Interactive (local keyboard)
+ 3 — Network (file shares, SMB)
+ 5 — Service account
+ 10 — Remote interactive (RDP)
 
 ---
 
@@ -480,13 +471,9 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4740
 ```
 
 Why this matters:
-
-Shows when an account was locked
-
-Caller_Computer_Name identifies where the failed attempts originated
-
-Multiple lockouts = possible password spray or brute force
-
+ - Shows when an account was locked
+ - Caller_Computer_Name identifies where the failed attempts originated
+ - Multiple lockouts = possible password spray or brute force
 
 ---
 
@@ -500,12 +487,9 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4625 earliest=-24h
 ```
 
 Use cases:
-
-Identify targeted accounts
-
-Spot enumeration attempts
-
-Unknown usernames = attacker probing AD
+ - Identify targeted accounts
+ - Spot enumeration attempts
+ - Unknown usernames = attacker probing AD
 
 ---
 
@@ -520,13 +504,8 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4624
 ```
 
 Interpretation:
-
-After‑hours service account logins (Type 5) are normal
-
-After‑hours interactive logins (Type 2 or 10) may require investigation
-
----
-
+ - After‑hours service account logins (Type 5) are normal
+ - After‑hours interactive logins (Type 2 or 10) may require investigation
 
 ---
 
@@ -579,10 +558,8 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4625
 ```
 
 What this detects:
-
-Any account with more than 10 failed logins
-
-In real environments, this is a strong indicator of brute force attacks
+ - Any account with more than 10 failed logins
+ - In real environments, this is a strong indicator of brute force attacks
 
 ---
 ### 🛎️ Create the Alert
