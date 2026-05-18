@@ -9,6 +9,9 @@ This document illustrates how logs flow from the Windows Active Directory VM int
 
 <img width="1024" height="1536" alt="Splunk architecture" src="https://github.com/user-attachments/assets/7bed0647-ff22-48e4-93af-00b34e23bc11" />
 
+<img width="1024" height="1536" alt="Splunk architecture" src="https://github.com/user-attachments/assets/48f8898c-96a8-4ae6-a422-c97c5f6f4a89" />
+
+
 ---
 
 ## 🔍 Component Breakdown
