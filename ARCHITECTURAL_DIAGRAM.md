@@ -1,3 +1,4 @@
+
 # Architectural Diagram — Splunk SIEM & Log Analysis Lab
 
 This document illustrates how logs flow from the Windows Active Directory VM into Splunk Enterprise running on an Ubuntu VM in Azure.
@@ -6,8 +7,7 @@ This document illustrates how logs flow from the Windows Active Directory VM int
 
 ## 🏗️ High-Level Architecture
 
-
-
+<img width="1024" height="1536" alt="Splunk architecture" src="https://github.com/user-attachments/assets/7bed0647-ff22-48e4-93af-00b34e23bc11" />
 
 ---
 
