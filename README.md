@@ -178,13 +178,13 @@ This section covers connecting to your Ubuntu VM using SSH, converting your Azur
 Run the following command inside your SSH session:
 
 ```bash
-wget -O splunk-10.2.3-4d61cf8a5c0c.x86_64.rpm https://download.splunk.com/products/splunk/releases/10.2.3/linux/splunk-10.2.3-4d61cf8a5c0c.x86_64.rpm
+wget -O splunk-10.4.0-f798d4d49089-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/10.4.0/linux/splunk-10.4.0-f798d4d49089-linux-amd64.deb"
 ```
 
 ### **Install Splunk**
 
 ```bash
-sudo dpkg -i splunk-10.2.2-linux-amd64.deb
+sudo dpkg -i splunk-10.4.0-f798d4d49089-linux-amd64.deb
 ```
 
 ### **Start Splunk & Accept License**
