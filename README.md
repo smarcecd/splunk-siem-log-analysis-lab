@@ -1,4 +1,4 @@
-<img width="553" height="313" alt="splunk step2" src="https://github.com/user-attachments/assets/57cd17b0-b957-4308-a96b-c3d732b4d213" />
+
 # Splunk SIEM & Log Analysis Lab
 
 This lab walks through deploying Splunk Enterprise on an Azure Ubuntu VM, configuring network access, and preparing the environment to receive Windows event logs from a separate Active Directory lab VM.
