@@ -220,6 +220,10 @@ http://<YOUR_VM_PUBLIC_IP>:8000
 
 ## 🧩 Step 4 — Configure Data Inputs in Splunk
 
+Watch me doing steps 4 and 5:
+
+[![step 4-5](https://github.com/user-attachments/assets/cb2a7a20-81a9-49a0-b8ad-82900086f05f)](https://www.loom.com/share/2d52453e2f6a4d0f9a46391c4127ddee)
+
 Splunk becomes useful only when it begins receiving data.  
 In this step, you will configure Splunk Enterprise to receive logs from your **Windows Server / Active Directory VM** using the **Splunk Universal Forwarder**.
 
