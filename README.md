@@ -174,6 +174,9 @@ This section covers connecting to your Ubuntu VM using SSH, converting your Azur
 
 ## 📥 Download & Install Splunk Enterprise on Ubuntu
 
+[![splunk3-2](https://github.com/user-attachments/assets/914eeb80-469d-4ac4-961b-457dc42ba1fe)](https://www.loom.com/share/bb57ae9afea4422984bfbf1faaa2647a)
+
+
 ### **Download Splunk**
 Run the following command inside your SSH session:
 
@@ -205,7 +208,6 @@ This optional command will let you know if the Splunk server is running:
 ```bash
 sudo /opt/splunk/bin/splunk status
 ```
-
 
 ### **Access the Splunk Web UI**
 
