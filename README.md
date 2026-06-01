@@ -137,6 +137,9 @@ This section covers connecting to your Ubuntu VM using SSH, converting your Azur
 
 ## 🔐 Connect to the Linux VM via SSH (Using PuTTY)
 
+[![splunk 3-1](https://github.com/user-attachments/assets/af99a19c-e8a5-4b23-abbf-3d52748f6068)](https://www.loom.com/share/eb3255794e6c45debe9db37d01a39dd7)
+
+
 ### **Install PuTTY (Windows)**
 
 1. Go to https://putty.org → click **Download PuTTY**
