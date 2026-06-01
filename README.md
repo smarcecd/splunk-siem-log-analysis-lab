@@ -544,6 +544,9 @@ You will create a **Windows Security Overview** dashboard using the searches fro
 
 ### 🛠️ Create the Dashboard
 
+[![step6](https://github.com/user-attachments/assets/3bb155ef-0525-4d81-b56f-e9b255480a3a)](https://www.loom.com/share/97c6c20ff22c44deb8e8ce86f76a0dd6)
+
+
 1. In Splunk, go to **Dashboards**
 2. Click **Create New Dashboard**
 3. Name it: **Windows Security Overview**
