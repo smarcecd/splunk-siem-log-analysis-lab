@@ -574,6 +574,8 @@ You will create a **Windows Security Overview** dashboard using the searches fro
 
 ## 🚨 Step 7 — Create an Automated Alert
 
+[![splunk7](https://github.com/user-attachments/assets/1289e645-59f0-494c-b060-671d589d4bdf)](https://www.loom.com/share/c8c08200a9a94411b1ed860cd88271e6)
+
 Alerts allow Splunk to notify you when suspicious activity occurs — just like a real SOC workflow.
 
 ---
