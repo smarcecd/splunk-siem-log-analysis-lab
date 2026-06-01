@@ -609,6 +609,12 @@ Click Save
 
 Your Splunk instance will now automatically detect brute force attempts.
 
+---
+
+### ⚠️ Please do NOT forget to delete the resources! ⚠️
+
+[![last splunk](https://github.com/user-attachments/assets/6e57a66b-4cec-4d8f-8f15-9997a3f33042)](https://www.loom.com/share/1918a565c4da4043899c6f0f2614a7e6)
+
 
 
 
