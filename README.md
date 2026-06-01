@@ -42,7 +42,7 @@ Splunk Enterprise offers a **60‑day full trial**, then automatically converts 
 | Region | East US |
 | Image | Ubuntu 22.04 LTS (Free Tier eligible) |
 | Size | Standard_B2s (2 vCPU, 4GB RAM minimum) |
-| Authentication | Password (choose username + password) |
+| Authentication | SSH public key -  Provide a Key Pair name: SplunkKey |
 | Public inbound ports | Allow SSH (22) |
 | OS Disk | Standard SSD |
 
