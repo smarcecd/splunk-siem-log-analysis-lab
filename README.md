@@ -1,3 +1,4 @@
+<img width="553" height="313" alt="splunk step2" src="https://github.com/user-attachments/assets/57cd17b0-b957-4308-a96b-c3d732b4d213" />
 # Splunk SIEM & Log Analysis Lab
 
 This lab walks through deploying Splunk Enterprise on an Azure Ubuntu VM, configuring network access, and preparing the environment to receive Windows event logs from a separate Active Directory lab VM.
@@ -29,6 +30,9 @@ Splunk Enterprise offers a **60‑day full trial**, then automatically converts 
 ---
 
 ## 🥈 Step 2 — Deploy the Azure VM for the Splunk Server
+
+[![splunk step2](https://github.com/user-attachments/assets/e0cb1b76-c51e-4551-bb42-503f50823aa8)](https://www.loom.com/share/dc93966eeab24c8da63d4f72b5ebab93)
+
 
 1. Go to https://azure.microsoft.com/free and create an account (if needed).
 2. Sign in to the Azure Portal: https://portal.azure.com.
