@@ -16,6 +16,8 @@ Before starting, ensure you have:
 
 ## 🥇 Step 1 — Download Splunk Enterprise (Free)
 
+[![Splunklab](https://github.com/user-attachments/assets/ea2c63fc-1d34-4589-8add-c40bf438a1ec)](https://www.loom.com/share/5e0b6fe077ca47f3ad135645fa0c7dbe)
+
 Splunk Enterprise offers a **60‑day full trial**, then automatically converts to the **free license** (500MB/day indexing — perfect for labs).
 
 1. Visit: https://splunk.com/en_us/download/splunk-enterprise.html  
