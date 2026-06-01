@@ -192,7 +192,8 @@ sudo dpkg -i splunk-10.4.0-f798d4d49089-linux-amd64.deb
 You will be prompted to create admin credentials:
 
 ```bash
-sudo /opt/splunk/bin/splunk start --accept-license
+sudo /opt/splunk/bin/splunk start --accept-license --run-as-root
+
 ```
 
 ### **Enable Splunk to Start on Boot**
