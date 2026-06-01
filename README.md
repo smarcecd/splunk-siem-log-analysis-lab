@@ -145,7 +145,7 @@ This section covers connecting to your Ubuntu VM using SSH, converting your Azur
 ### **Convert Azure PEM Key to PPK (Required for PuTTY)**
 
 1. Open **PuTTYgen** (installed with PuTTY)
-2. Click **Load** → select your `.pem` file  
+2. Click File, then select **Load private key** → select your `.pem` file  
    *(Change file type dropdown to “All Files” if needed)*
 3. Once loaded, click **Save private key**
 4. Choose a location and save the `.ppk` file
