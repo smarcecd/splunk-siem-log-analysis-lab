@@ -201,6 +201,12 @@ sudo /opt/splunk/bin/splunk start --accept-license --run-as-root
 sudo /opt/splunk/bin/splunk enable boot-start
 ```
 
+This optional command will let you know if the Splunk server is running:
+```bash
+sudo /opt/splunk/bin/splunk status
+```
+
+
 ### **Access the Splunk Web UI**
 
 Open your browser and go to:
